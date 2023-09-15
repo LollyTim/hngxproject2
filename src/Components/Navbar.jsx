@@ -3,11 +3,11 @@ import {AiOutlineSearch} from "react-icons/ai"
 
 const Navbar = ({ onSearch }) => {
 
-     const [query, setQuery] = useState('');
+  //    const [query, setQuery] = useState('');
 
-  const handleSearch = () => {
-    onSearch(query);
-  };
+  // const handleSearch = () => {
+  //   onSearch(query);
+  // };
 
   return (
     <div style={{
@@ -25,13 +25,13 @@ const Navbar = ({ onSearch }) => {
       <input
         type="text"
         placeholder="What do you want to watch?"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        // value={query}
+        // onChange={(e) => setQuery(e.target.value)}
         
         className=' bg-transparent px-2 py-2 font-semibold placeholder-white text-white rounded-xl border-none w-[525px] ring-2 ring-gray-300 focus:ring-2 focus:ring-gray-500'
         
       />
-      <button className=' absolute ml-[480px]' onClick={handleSearch}><AiOutlineSearch className='text-white w-10' /></button>
+      <button className=' absolute ml-[480px]'><AiOutlineSearch className='text-white w-10' /></button>
      </div>
      <div className=' gap-5 flex'>
      <button className='text-white'>Sign In</button>
