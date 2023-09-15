@@ -57,7 +57,7 @@ const Navbar = ({ onSearch }) => {
           target of hit men and women everywhere.</p>
           <button className='flex text-white bg-[#BE123C] justify-center p-3 rounded-md gap-2 items-center'> <img src="Play.png" alt="" /> WATCH TRILER</button>
         </div>
-       <div className='text-[#9b9595] ml-[760px] flex-1 items-center justify-center pt-40'>
+       <div className='text-[#9b9595] ml-[620px] flex-1 items-center justify-center pt-40'>
         <p>1</p>
         <p>2</p>
         <p>3</p>

@@ -1,3 +1,4 @@
+import Footer from './Components/Footer';
 import Movies from './Components/Movies';
 import Navbar from './Components/Navbar';
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
      <Movies /> 
+     <Footer />
     </div>
   );
 }

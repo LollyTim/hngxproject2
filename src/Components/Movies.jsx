@@ -35,12 +35,23 @@ function Movies() {
           {movies.map((movie) => (
             <div className=" flex flex-col gap-5" key={movie.id} data-testid="movie-card">
               <img
+              className='w-56'
                 src={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}
                 alt={movie.title}
                 data-testid="movie-poster"
               />
-              <h2 data-testid="movie-title">{movie.title}</h2>
-              <p data-testid="movie-release-date">{movie.release_date}</p>
+              <h2 data-testid="movie-title" className='font-semibold font-black text-1xl'>{movie.title}</h2>
+              <div className='py-4 flex gap-3 text-[#adadad] text-sm'>
+        <div className='flex gap-1'>
+        <img src="MV5BMTk3ODA4Mjc0NF5BMl5BcG5nXkFtZTgwNDc1MzQ2OTE@ 1.png" alt="bif" />
+        <p>80.0/100</p>
+        </div>
+        <div className='flex gap-1'>
+        <img src="PngItem_1381056 1.png" alt="" />
+        <p>80.0/100</p>
+        </div>
+       </div>
+              <p data-testid="movie-release-date" className='text-gray-400 '>{movie.release_date}</p>
             </div>
           ))}
         </div>
