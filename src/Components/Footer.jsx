@@ -15,7 +15,7 @@ const Footer = () => {
         <h5>Privacy & Policy</h5>
         <h5>Press Room</h5>
       </div>
-      <p className='ml-[480px] text-gray-400 mb-[20px]'>© 2023 MovieBox by Sanya Ololade </p>
+      <p className='ml-[500px] text-gray-400 mb-[20px]'>© 2023 MovieBox by Sanya Ololade </p>
     </div>
   )
 }
